@@ -1,0 +1,15 @@
+@author: VIKRANT SINGH
+"""
+### PARMUTATION COMBINATION
+
+
+def factorial(n):
+    if n==1:
+        return n
+    else:
+        return n * factorial(n-1)
+
+n=int(input("ENTER A NUMBER (n)" "  "))
+r=int(input("Enter a number (r)" " "))
+result=factorial(n)/(factorial(r)*factorial(n-r))
+print(result)
